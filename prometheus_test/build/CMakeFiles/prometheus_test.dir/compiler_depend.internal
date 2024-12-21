@@ -14,6 +14,8 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/include/c++/14.1.0/bits/allocator.h
  C:/mingw64/include/c++/14.1.0/bits/atomic_base.h
  C:/mingw64/include/c++/14.1.0/bits/atomic_lockfree_defines.h
+ C:/mingw64/include/c++/14.1.0/bits/basic_ios.h
+ C:/mingw64/include/c++/14.1.0/bits/basic_ios.tcc
  C:/mingw64/include/c++/14.1.0/bits/basic_string.h
  C:/mingw64/include/c++/14.1.0/bits/basic_string.tcc
  C:/mingw64/include/c++/14.1.0/bits/char_traits.h
@@ -34,6 +36,12 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/include/c++/14.1.0/bits/hashtable.h
  C:/mingw64/include/c++/14.1.0/bits/hashtable_policy.h
  C:/mingw64/include/c++/14.1.0/bits/invoke.h
+ C:/mingw64/include/c++/14.1.0/bits/ios_base.h
+ C:/mingw64/include/c++/14.1.0/bits/istream.tcc
+ C:/mingw64/include/c++/14.1.0/bits/locale_classes.h
+ C:/mingw64/include/c++/14.1.0/bits/locale_classes.tcc
+ C:/mingw64/include/c++/14.1.0/bits/locale_facets.h
+ C:/mingw64/include/c++/14.1.0/bits/locale_facets.tcc
  C:/mingw64/include/c++/14.1.0/bits/localefwd.h
  C:/mingw64/include/c++/14.1.0/bits/memory_resource.h
  C:/mingw64/include/c++/14.1.0/bits/memoryfwd.h
@@ -41,6 +49,7 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/include/c++/14.1.0/bits/nested_exception.h
  C:/mingw64/include/c++/14.1.0/bits/new_allocator.h
  C:/mingw64/include/c++/14.1.0/bits/node_handle.h
+ C:/mingw64/include/c++/14.1.0/bits/ostream.tcc
  C:/mingw64/include/c++/14.1.0/bits/ostream_insert.h
  C:/mingw64/include/c++/14.1.0/bits/parse_numbers.h
  C:/mingw64/include/c++/14.1.0/bits/postypes.h
@@ -72,6 +81,8 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/include/c++/14.1.0/bits/stl_tree.h
  C:/mingw64/include/c++/14.1.0/bits/stl_uninitialized.h
  C:/mingw64/include/c++/14.1.0/bits/stl_vector.h
+ C:/mingw64/include/c++/14.1.0/bits/streambuf.tcc
+ C:/mingw64/include/c++/14.1.0/bits/streambuf_iterator.h
  C:/mingw64/include/c++/14.1.0/bits/string_view.tcc
  C:/mingw64/include/c++/14.1.0/bits/stringfwd.h
  C:/mingw64/include/c++/14.1.0/bits/this_thread_sleep.h
@@ -95,6 +106,7 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/include/c++/14.1.0/cstdlib
  C:/mingw64/include/c++/14.1.0/ctime
  C:/mingw64/include/c++/14.1.0/cwchar
+ C:/mingw64/include/c++/14.1.0/cwctype
  C:/mingw64/include/c++/14.1.0/debug/assertions.h
  C:/mingw64/include/c++/14.1.0/debug/debug.h
  C:/mingw64/include/c++/14.1.0/exception
@@ -107,19 +119,26 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/include/c++/14.1.0/ext/type_traits.h
  C:/mingw64/include/c++/14.1.0/functional
  C:/mingw64/include/c++/14.1.0/initializer_list
+ C:/mingw64/include/c++/14.1.0/ios
  C:/mingw64/include/c++/14.1.0/iosfwd
+ C:/mingw64/include/c++/14.1.0/iostream
+ C:/mingw64/include/c++/14.1.0/istream
  C:/mingw64/include/c++/14.1.0/limits
  C:/mingw64/include/c++/14.1.0/map
  C:/mingw64/include/c++/14.1.0/memory
  C:/mingw64/include/c++/14.1.0/mutex
  C:/mingw64/include/c++/14.1.0/new
+ C:/mingw64/include/c++/14.1.0/ostream
  C:/mingw64/include/c++/14.1.0/pstl/execution_defs.h
  C:/mingw64/include/c++/14.1.0/pstl/glue_memory_defs.h
  C:/mingw64/include/c++/14.1.0/pstl/pstl_config.h
  C:/mingw64/include/c++/14.1.0/ratio
+ C:/mingw64/include/c++/14.1.0/stdexcept
  C:/mingw64/include/c++/14.1.0/stdlib.h
+ C:/mingw64/include/c++/14.1.0/streambuf
  C:/mingw64/include/c++/14.1.0/string
  C:/mingw64/include/c++/14.1.0/string_view
+ C:/mingw64/include/c++/14.1.0/system_error
  C:/mingw64/include/c++/14.1.0/thread
  C:/mingw64/include/c++/14.1.0/tuple
  C:/mingw64/include/c++/14.1.0/type_traits
@@ -132,6 +151,8 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h
  C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++locale.h
  C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h
+ C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/ctype_base.h
+ C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/ctype_inline.h
  C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/error_constants.h
  C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/gthr-default.h
  C:/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/gthr.h
@@ -179,6 +200,7 @@ CMakeFiles/prometheus_test.dir/main.cpp.obj
  C:/mingw64/x86_64-w64-mingw32/include/time.h
  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h
  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
+ C:/mingw64/x86_64-w64-mingw32/include/wctype.h
  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/include/prometheus/client_metric.h
  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/include/prometheus/collectable.h
  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/include/prometheus/counter.h

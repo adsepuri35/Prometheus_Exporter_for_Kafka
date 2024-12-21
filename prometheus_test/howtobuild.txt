@@ -1,0 +1,8 @@
+cmake .. -G "MinGW Makefiles" -DCMAKE_TOOLCHAIN_FILE=D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-mingw-dynamic
+
+### just use this
+cmake --build .
+
+
+### run with
+./prometheus_test
