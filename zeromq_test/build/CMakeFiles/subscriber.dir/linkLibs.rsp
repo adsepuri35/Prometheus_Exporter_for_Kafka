@@ -1,0 +1,1 @@
+ "D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libzmq.dll.a" -lws2_32 -ladvapi32 -lrpcrt4 -liphlpapi -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
