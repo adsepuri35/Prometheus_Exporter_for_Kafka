@@ -21,3 +21,8 @@ vcpkg/
 /*.vcxproj
 /*.vcxproj.filters
 /*.vcxproj.user
+
+Makefile
+makefile
+*.make
+*.mk

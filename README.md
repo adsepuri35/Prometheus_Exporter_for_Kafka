@@ -1,4 +1,4 @@
-# Prometheus Exporter for ZeroMQ
+# Prometheus Exporter for ZeroMQ (In Progress)
 
 C++ exporter to integreate Prometheus metrics with a ZeroMQ application.
 
