@@ -1,0 +1,2 @@
+Format these metrics in Prometheus’ text exposition format.
+Expose the metrics on an HTTP endpoint for Prometheus to scrape.
