@@ -16,13 +16,14 @@ set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH};D:/Githhub_Repos/Prometheus_Exporter
 # Find packages
 find_package(ZeroMQ CONFIG REQUIRED)
 find_package(cppzmq CONFIG REQUIRED)
+find_package(prometheus-cpp CONFIG REQUIRED)
 
 # Add the executables
 add_executable(publisher publisher.cpp)
 add_executable(subscriber subscriber.cpp)
 
 # Link libraries
-target_link_libraries(publisher PRIVATE libzmq cppzmq)
+target_link_libraries(publisher PRIVATE libzmq cppzmq prometheus-cpp::core prometheus-cpp::pull)
 target_link_libraries(subscriber PRIVATE libzmq cppzmq)
 
 # Include directories

@@ -92,7 +92,15 @@ publisher_EXTERNAL_OBJECTS =
 
 publisher.exe: CMakeFiles/publisher.dir/publisher.cpp.obj
 publisher.exe: CMakeFiles/publisher.dir/build.make
+publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libprometheus-cpp-core.a
+publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libprometheus-cpp-pull.a
 publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libzmq.dll.a
+publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libprometheus-cpp-core.a
+publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libcivetweb-cpp.dll.a
+publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libcivetweb.dll.a
+publisher.exe: C:/mingw64/x86_64-w64-mingw32/lib/libws2_32.a
+publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/debug/lib/libzlibd.dll.a
+publisher.exe: D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-dynamic/lib/libzlib.dll.a
 publisher.exe: CMakeFiles/publisher.dir/linkLibs.rsp
 publisher.exe: CMakeFiles/publisher.dir/objects1.rsp
 publisher.exe: CMakeFiles/publisher.dir/link.txt
