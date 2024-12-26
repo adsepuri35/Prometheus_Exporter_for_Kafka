@@ -1,0 +1,7 @@
+# ninja log v6
+14	1887	7568916520024361	CMakeFiles/src.dir/metrics.cpp.obj	5ee938d7a79002a7
+12	889	7568916957449772	CMakeFiles/src.dir/main.cpp.obj	bdd9ccb5fa57b217
+26	1681	7568916520186093	CMakeFiles/src.dir/messaging.cpp.obj	e3f1a254b6db29ec
+891	3041	7568916966164478	src.exe	5d3007af19aaa5a
+10	797	7568922072116138	CMakeFiles/receiver.dir/receiver.cpp.obj	985577e18003298
+801	1767	7568922080146931	receiver.exe	2e72a530cfbb002a

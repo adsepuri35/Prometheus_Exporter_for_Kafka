@@ -1,0 +1,4 @@
+D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/src/build/CMakeFiles/src.dir
+D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/src/build/CMakeFiles/receiver.dir
+D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/src/build/CMakeFiles/edit_cache.dir
+D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/src/build/CMakeFiles/rebuild_cache.dir
