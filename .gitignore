@@ -1,28 +1,91 @@
-vcpkg/
+# .gitignore
 
+# ============================
+# IDE and Editor Settings
+# ============================
+
+# Visual Studio Code settings
+.vscode/
+
+# ============================
+# Build Directories
+# ============================
+
+# CMake build directories
 /build/
 /CMakeFiles/
-/CMakeCache.txt
-/Makefile
-/CMakeLists.txt.user
-/cmake_install.cmake
-/*.dir/
-/*.make
-/*.o
-/*.obj
-/*.pdb
-/*.exe
-/*.ilk
-/*.log
-/*.pch
-/*.pdb
-/*.suo
-/*.sln
-/*.vcxproj
-/*.vcxproj.filters
-/*.vcxproj.user
 
+# ============================
+# CMake Generated Files
+# ============================
+
+CMakeCache.txt
+cmake_install.cmake
 Makefile
-makefile
+
+# ============================
+# Compiled Object Files and Binaries
+# ============================
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ============================
+# Debug and Temporary Files
+# ============================
+
+# Debug files
+*.pdb
+*.ilk
+
+# Log files
+*.log
+
+# Precompiled headers
+*.pch
+
+# Visual Studio specific
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# ============================
+# Make and Other Build Tools
+# ============================
+
+# Make-related files
 *.make
-*.mk
+*.dir/
+
+# ============================
+# Miscellaneous
+# ============================
+
+# Temporary files
+*.tmp
+
+# ============================
+# Ignore All Files in Specific Directories
+# ============================
+
+# Ignore all files in the 'build' directory
+/build/
+
+# Ignore all files in the 'vcpkg' directory
+vcpkg/
