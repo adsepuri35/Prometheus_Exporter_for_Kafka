@@ -1,3 +1,0 @@
-D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/prometheus_test/build/CMakeFiles/prometheus_test.dir
-D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/prometheus_test/build/CMakeFiles/edit_cache.dir
-D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/prometheus_test/build/CMakeFiles/rebuild_cache.dir
