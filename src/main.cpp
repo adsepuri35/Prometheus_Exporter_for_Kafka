@@ -15,7 +15,7 @@ int main() {
     socket.bind("tcp://*:5555");
 
     std::cout << "Sending messages..." << std::endl;
-    for (int i = 0; i < 100; ++i) {
+    for (int i = 0; i < 15; i++) {
         trackAndSendMessage(socket, "Hello, World!");
         std::cout << "Sent message " << (i + 1) << std::endl;
     }
