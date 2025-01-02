@@ -40,7 +40,6 @@
         "list": "cpp",
         "locale": "cpp",
         "map": "cpp",
-        "memory": "cpp",
         "mutex": "cpp",
         "new": "cpp",
         "optional": "cpp",
