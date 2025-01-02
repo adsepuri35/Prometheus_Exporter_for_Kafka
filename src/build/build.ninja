@@ -102,6 +102,14 @@ build CMakeFiles/receiver.dir/receiver.cpp.obj: CXX_COMPILER__receiver_unscanned
   OBJECT_DIR = CMakeFiles\receiver.dir
   OBJECT_FILE_DIR = CMakeFiles\receiver.dir
 
+build CMakeFiles/receiver.dir/metrics.cpp.obj: CXX_COMPILER__receiver_unscanned_ D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/src/metrics.cpp || cmake_object_order_depends_target_receiver
+  DEFINES = -DZMQ_STATIC
+  DEP_FILE = CMakeFiles\receiver.dir\metrics.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -isystem D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/include
+  OBJECT_DIR = CMakeFiles\receiver.dir
+  OBJECT_FILE_DIR = CMakeFiles\receiver.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target receiver
@@ -110,8 +118,8 @@ build CMakeFiles/receiver.dir/receiver.cpp.obj: CXX_COMPILER__receiver_unscanned
 #############################################
 # Link the executable receiver.exe
 
-build receiver.exe: CXX_EXECUTABLE_LINKER__receiver_ CMakeFiles/receiver.dir/receiver.cpp.obj | D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libzmq.a
-  LINK_LIBRARIES = D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libzmq.a  -lws2_32  -ladvapi32  -lrpcrt4  -liphlpapi  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build receiver.exe: CXX_EXECUTABLE_LINKER__receiver_ CMakeFiles/receiver.dir/receiver.cpp.obj CMakeFiles/receiver.dir/metrics.cpp.obj | D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libprometheus-cpp-core.a D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libprometheus-cpp-pull.a D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libprometheus-cpp-core.a D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libcivetweb-cpp.a D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libcivetweb.a C$:/mingw64/x86_64-w64-mingw32/lib/libws2_32.a D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libzlibd.a D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-windows/lib/zlib.lib D$:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libzmq.a
+  LINK_LIBRARIES = D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libprometheus-cpp-core.a  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libprometheus-cpp-pull.a  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libprometheus-cpp-core.a  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libcivetweb-cpp.a  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libcivetweb.a  C:/mingw64/x86_64-w64-mingw32/lib/libws2_32.a  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libzlibd.a  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-windows/lib/zlib.lib  D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-mingw-static/debug/lib/libzmq.a  -lws2_32  -ladvapi32  -lrpcrt4  -liphlpapi  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\receiver.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Githhub_Repos\Prometheus_Exporter_for_ZeroMQ\src\build && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/src/build/receiver.exe -installedDir D:/Githhub_Repos/Prometheus_Exporter_for_ZeroMQ/vcpkg/installed/x64-windows/bin -OutVariable out"
   PRE_LINK = cd .
