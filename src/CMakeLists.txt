@@ -16,5 +16,5 @@ add_executable(src main.cpp metrics.cpp messaging.cpp)
 target_link_libraries(src PRIVATE prometheus-cpp::core prometheus-cpp::pull cppzmq)
 
 # Add receiver executable
-add_executable(receiver receiver.cpp)
-target_link_libraries(receiver PRIVATE cppzmq)
+add_executable(receiver receiver.cpp metrics.cpp)
+target_link_libraries(receiver PRIVATE prometheus-cpp::core prometheus-cpp::pull cppzmq)

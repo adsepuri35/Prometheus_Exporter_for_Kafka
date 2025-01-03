@@ -14,7 +14,7 @@ void trackAndSendMessage(zmq::socket_t& socket, const std::string& message) {
         std::cout << "Message sent." << std::endl;
 
         // Increment counter
-        incrementMessageCounter();
+        trackMessageSent();
     }
     catch (const zmq::error_t& e) {
         std::cerr << "ZeroMQ error: " << e.what() << std::endl;

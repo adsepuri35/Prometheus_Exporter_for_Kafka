@@ -6,6 +6,10 @@
 extern std::shared_ptr<prometheus::Registry> registry;
 
 // Function declarations
-void incrementMessageCounter();
+void trackConnectionOpened();
+void trackConnectionClosed();
+void trackMessageSent();
+void trackMessageReceived();
+void trackError();
 void initMetrics();
 void startMetricsServer(int port);

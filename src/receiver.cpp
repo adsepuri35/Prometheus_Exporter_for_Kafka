@@ -1,3 +1,4 @@
+#include "metrics.h"
 #include <zmq.hpp>
 #include <string>
 #include <iostream>
@@ -11,9 +12,16 @@ int main() {
 
     while (true) {
         zmq::message_t message;
-        socket.recv(message, zmq::recv_flags::none);
+        auto result = socket.recv(message, zmq::recv_flags::none);
+        if (!result.has_value()) {
+            // Handle error or break
+            break;
+        }
+
         std::string msg_str(static_cast<char*>(message.data()), message.size());
         std::cout << "Received message: " << msg_str << std::endl;
+
+        trackMessageReceived();
     }
 
     return 0;
